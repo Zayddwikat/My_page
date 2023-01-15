@@ -1,0 +1,81 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+body
+{
+ color: black;
+}
+body h1
+{
+    color: goldenrod;
+}
+.left
+{
+    margin: 10rem 0 15rem 35rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px goldenrod;
+    width: 60%;
+    padding: 15px;
+    max-width: 60%;
+}
+.Right
+{
+    width: 18em;
+    height: 23em;
+    margin-top: 0;
+    margin-left:14% ;
+    background-image: url("Profile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+}
+.bi
+{
+    width: 18em;
+    height: 23em;
+    background-color: goldenrod;
+    position: absolute;
+    margin-top: 1%;
+    margin-left:13% ;
+}
+li a
+{
+    text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+      .Right .bi {
+        position: absolute;
+        
+      width: 20%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .Right
+    {
+        position: absolute;
+        margin-top: 5em;
+    }
+    .bi{
+        position: absolute;
+        margin-top: 6em;
+    }
+    .left
+    {
+        position: absolute;
+        margin-top: 30em;
+        right: 0;
+        margin-right: 7em;
+        height: auto;
+        
+    }
+
+}
+@media  screen and (max-width: 2000px) {
+
+    .Right
+    
+}
